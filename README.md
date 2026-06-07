@@ -6,7 +6,7 @@ Static files for `https://ten10call.github.io/`.
 
 - `index.html`: homepage content
 - `styles.css`: visual design
-- `assets/hero-cosmology.jpg`: hero background image
+- `assets/hero-cosmology.svg`: hero background image
 
 ## Publish
 
