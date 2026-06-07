@@ -85,9 +85,13 @@ a:hover {
   align-items: center;
   padding: 112px 7vw 88px;
   color: var(--white);
-  background:
+  background-image:
     linear-gradient(90deg, rgba(13, 18, 23, 0.82) 0%, rgba(13, 18, 23, 0.54) 52%, rgba(13, 18, 23, 0.72) 100%),
-    url("assets/hero-cosmology.svg") center / cover no-repeat;
+    url("assets/hero-cosmology.png"),
+    url("assets/hero-cosmology.svg");
+  background-position: center, center, center;
+  background-size: cover, cover, cover;
+  background-repeat: no-repeat, no-repeat, no-repeat;
 }
 
 .hero-copy {
@@ -265,7 +269,7 @@ h1 {
 
 .publication + .publication,
 .entry + .entry,
-.year-block + .year-block {
+year-block + .year-block {
   margin-top: 28px;
   padding-top: 28px;
   border-top: 1px solid var(--line);
