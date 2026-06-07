@@ -269,7 +269,7 @@ h1 {
 
 .publication + .publication,
 .entry + .entry,
-year-block + .year-block {
+.year-block + .year-block {
   margin-top: 28px;
   padding-top: 28px;
   border-top: 1px solid var(--line);
