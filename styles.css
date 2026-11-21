@@ -63,6 +63,12 @@ a:hover {
   text-decoration: none;
 }
 
+.nav-controls {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
 .nav-links {
   display: flex;
   gap: 28px;
@@ -77,6 +83,30 @@ a:hover {
 
 .nav-links a:hover {
   color: var(--white);
+}
+
+.language-toggle {
+  width: 44px;
+  height: 34px;
+  padding: 0;
+  color: var(--white);
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.48);
+  border-radius: 4px;
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.language-toggle:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.86);
+}
+
+.language-toggle:focus-visible {
+  outline: 2px solid var(--white);
+  outline-offset: 3px;
 }
 
 .hero {
@@ -314,6 +344,10 @@ h1 {
 
   .nav-links {
     gap: 18px;
+  }
+
+  .nav-controls {
+    gap: 16px;
   }
 
   .hero {
